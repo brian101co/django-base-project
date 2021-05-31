@@ -1,0 +1,27 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Brian",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "autoprefixer": "9.8.6",
+    "babel-loader": "^8.2.2",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "8.0.0",
+    "gulp-sass": "^4.1.0",
+    "webpack": "^5.38.1",
+    "webpack-stream": "^6.1.2"
+  },
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp watch"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
